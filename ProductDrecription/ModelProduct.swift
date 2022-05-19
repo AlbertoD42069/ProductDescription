@@ -8,6 +8,20 @@
 import Foundation
 
 
+class ViewModelDetalleProducto {
+    
+    init(){
+        InforProducto = ModelProducto()
+        Certificados = Certificate()
+        Featuress = Features()
+        InformationNutr = nutritionaInformation()
+    }
+    
+    var InforProducto : ModelProducto?
+    var Certificados : Certificate?
+    var Featuress : Features?
+    var InformationNutr : nutritionaInformation?
+}
 struct ModelProducto {
     var productImage: String?
     var productName: String?
@@ -16,26 +30,40 @@ struct ModelProducto {
     var productWeight: String?
     var productPrice: String?
     var productDiscount: String?
-    var certificateImage:[Certificate]
-    var mainFeatures: [Features]
-    var nutritionalInformation: [Information]
-    var productDescription: [Description]
+    var productFinalPrice: String?
+    var prodcutUnit: String?
+    var productImgTarjeta: String?
+    //var productCertificate: [Certificate]
+    //var certificateImage: [Certificate]
+    //var mainFeatures: [Features]
+    //var nutritionalInformation: [Information]
+    //var productDescription: [Description]
 }
 struct Certificate {
-    var certificateImage: String?
+    var certificateImagePez: String?
+    var certificateImageHuevo: String?
+    var certificateImageMarisco: String?
+    var certificateImageSoya: String?
+    var certificateImageVegt: String?
+    
+    var productCertificate: String?
 }
+
 struct Features {
-    var Feature: String?
+    var mainFeature: String?
 }
-struct Information {
+
+struct nutritionaInformation {
     var portion: String?
     var portionContainer: String?
-    var productValues: [Values]
-}
+    
+    
+    //var productValues: [Values]
+}/*
 struct Values {
     var values: String?
     var portionValues: String?
 }
 struct Description {
     
-}
+}*/

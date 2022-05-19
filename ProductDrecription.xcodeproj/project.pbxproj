@@ -16,6 +16,7 @@
 		152D7A652834519C0041B61B /* ModelProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D7A642834519C0041B61B /* ModelProduct.swift */; };
 		15B9C4222835941F008396F3 /* ProductDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B9C4202835941E008396F3 /* ProductDescriptionViewController.swift */; };
 		15B9C4232835941F008396F3 /* ProductDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B9C4212835941E008396F3 /* ProductDescriptionViewController.xib */; };
+		15B9C4262836B345008396F3 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B9C4252836B345008396F3 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		152D7A642834519C0041B61B /* ModelProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProduct.swift; sourceTree = "<group>"; };
 		15B9C4202835941E008396F3 /* ProductDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDescriptionViewController.swift; sourceTree = "<group>"; };
 		15B9C4212835941E008396F3 /* ProductDescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDescriptionViewController.xib; sourceTree = "<group>"; };
+		15B9C4252836B345008396F3 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +68,12 @@
 				152D7A5028344C060041B61B /* AppDelegate.swift */,
 				152D7A5228344C060041B61B /* SceneDelegate.swift */,
 				152D7A5428344C060041B61B /* ViewController.swift */,
+				152D7A642834519C0041B61B /* ModelProduct.swift */,
+				15B9C4252836B345008396F3 /* DataSource.swift */,
 				152D7A5628344C060041B61B /* Main.storyboard */,
 				152D7A5928344C110041B61B /* Assets.xcassets */,
 				152D7A5B28344C110041B61B /* LaunchScreen.storyboard */,
 				152D7A5E28344C110041B61B /* Info.plist */,
-				152D7A642834519C0041B61B /* ModelProduct.swift */,
 			);
 			path = ProductDrecription;
 			sourceTree = "<group>";
@@ -78,10 +81,18 @@
 		15B9C41F2835939F008396F3 /* DescripcionProducto */ = {
 			isa = PBXGroup;
 			children = (
+				15B9C4242836A58A008396F3 /* CeldaTabla */,
 				15B9C4202835941E008396F3 /* ProductDescriptionViewController.swift */,
 				15B9C4212835941E008396F3 /* ProductDescriptionViewController.xib */,
 			);
 			path = DescripcionProducto;
+			sourceTree = "<group>";
+		};
+		15B9C4242836A58A008396F3 /* CeldaTabla */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CeldaTabla;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B9C4262836B345008396F3 /* DataSource.swift in Sources */,
 				152D7A5528344C060041B61B /* ViewController.swift in Sources */,
 				152D7A5128344C060041B61B /* AppDelegate.swift in Sources */,
 				152D7A5328344C060041B61B /* SceneDelegate.swift in Sources */,

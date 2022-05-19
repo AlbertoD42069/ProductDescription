@@ -15,7 +15,7 @@ class ViewController: UITabBarController {
         
         home.title = "Agregar"
         
-        self .setViewControllers([home], animated: true)
+        self.setViewControllers([home], animated: true)
         guard let items = self.tabBar.items else {return}
         
         let imagenes =
